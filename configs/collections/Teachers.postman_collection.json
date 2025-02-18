@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "687b6f3e-d9af-4a93-804c-2a0e3b98a109",
+		"name": "Teachers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42042928"
+	},
+	"item": [
+		{
+			"name": "Post teacher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Cesar\",\r\n    \"surname\" : \"Palacios\",\r\n    \"username\" : \"Ces4r\",\r\n    \"email\" : \"cesarpalacios@gmail.com\",\r\n    \"password\" : \"barcelona2019\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/teachers/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"teachers",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login teacher",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"cesarpalacios@gmail.com\",\r\n    \"password\" : \"barcelona2019\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/teachers/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"teachers",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put teacher",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZGU5YjYwNzZlYzlhZTNkZjRkN2EiLCJpYXQiOjE3Mzk4NDEyMDIsImV4cCI6MTczOTg0NDgwMn0.wU_iYnVOcKmJSmOypHDrtjrOIX2m6bm3sjVBZkdRLqg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Brayan\",\r\n    \"surname\" : \"Joj\",\r\n    \"username\" : \"BraJ0j\",\r\n    \"email\" : \"brayanjoj@gmail.com\",\r\n    \"password\" : \"mat3matic4s12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/teachers/67b3de9b6076ec9ae3df4d7a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"teachers",
+						"67b3de9b6076ec9ae3df4d7a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete teacher",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZGU5YjYwNzZlYzlhZTNkZjRkN2EiLCJpYXQiOjE3Mzk4NDEyMDIsImV4cCI6MTczOTg0NDgwMn0.wU_iYnVOcKmJSmOypHDrtjrOIX2m6bm3sjVBZkdRLqg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/teachers/67b3de9b6076ec9ae3df4d7a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"teachers",
+						"67b3de9b6076ec9ae3df4d7a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get teacher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/teachers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"teachers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get for Id teacher",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/teachers/findTeacher/67b3dfb96076ec9ae3df4d85",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"teachers",
+						"findTeacher",
+						"67b3dfb96076ec9ae3df4d85"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

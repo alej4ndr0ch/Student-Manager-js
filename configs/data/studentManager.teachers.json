@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "67b3dfb96076ec9ae3df4d85"
+  },
+  "name": "Carlos",
+  "surname": "Cortez",
+  "username": "carl0sc0rtez",
+  "email": "carloscortez@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$6hensgklfEkN29Vxq3NvnA$gleckM3tVI4kqmlyDhhi5TK0+vwrtn7mW+4tjUU3jVM",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T01:17:45.834Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T01:17:45.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3fd52fb84d315069e5b24"
+  },
+  "name": "Eduardo",
+  "surname": "Duarte",
+  "username": "edudu4rte",
+  "email": "eduardoduarte@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$LcmVqH/2+fbKj0gTDbqM5A$ptk/CRukCE9zRW8tR9LMBZKJac/ElIepCD5mnASxGTY",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T03:24:02.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T03:24:02.575Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b402e78690240e253c8768"
+  },
+  "name": "Darwin",
+  "surname": "Coronado",
+  "username": "d4rw1n",
+  "email": "darwincoronado@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$DvBDxsSYJV5FIEpNIuv46Q$4+hGBcfFxGsuY00xDazcptZBsfQFudxzzDd1G924S8M",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T03:47:51.581Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T03:47:51.581Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b404178690240e253c876f"
+  },
+  "name": "Juan",
+  "surname": "Rivas",
+  "username": "r1v4s",
+  "email": "juanrivas@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$0Lt/G1O14yyKS0zUCJS4SA$3vMDpZG86SzW1eY1hAkPg0AopaH4KDe9rk2iXFk0bx4",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T03:52:55.995Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T03:52:55.995Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b40f29e48de82bc7371798"
+  },
+  "name": "Cesar",
+  "surname": "Palacios",
+  "username": "ces4r",
+  "email": "cesarpalacios@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$0bpShkIVu6nYFGrnKHl3kg$9Mg2HAwo1/SXlTVKK2DzwJl9zNmXuSkPisw6k9B0Vso",
+  "role": "TEACHER_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T04:40:09.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T04:40:09.199Z"
+  }
+}]
