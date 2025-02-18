@@ -1,0 +1,237 @@
+{
+	"info": {
+		"_postman_id": "4644c061-a773-46f9-8270-75486d4314df",
+		"name": "Courses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42042928"
+	},
+	"item": [
+		{
+			"name": "Post courses",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I0MGYyOWU0OGRlODJiYzczNzE3OTgiLCJpYXQiOjE3Mzk4NTM2MzQsImV4cCI6MTczOTg1NzIzNH0.eWTtQaUzlYOJ3688d_nlm6JAQLV0Bz_IwRFWXO4EjJw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Quimica\",\r\n    \"description\" : \"El curso de Quiemica intenta el introducir el curso de quimica\",\r\n    \"teacher\" : \"67b40f29e48de82bc7371798\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/courses/register/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"courses",
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get courses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZGZiOTYwNzZlYzlhZTNkZjRkODUiLCJpYXQiOjE3Mzk4NDgzNjAsImV4cCI6MTczOTg1MTk2MH0.QwXBO8Jy-IoSImVKon0D2VTQaBXLASOYp5sY3ssd_wE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/courses/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"courses",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put courses",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZmQ1MmZiODRkMzE1MDY5ZTViMjQiLCJpYXQiOjE3Mzk4NDkwNjcsImV4cCI6MTczOTg1MjY2N30.SSC7NIQv9Zd_AmM5aX2nDVqDpLQFabkGv9lvSR3XBsA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Matematica\",\r\n    \"description\" : \"El curso de Matematica intenta enseñar la matematica\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/courses/67b3fb79f90b6391e19720f7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"courses",
+						"67b3fb79f90b6391e19720f7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assing courses",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I0MTEyYWNmMmE2ZjFiOTUyMGU1MWEiLCJpYXQiOjE3Mzk4NTQxMzcsImV4cCI6MTczOTg1NzczN30.Br-SOVHcPTKIS1CEZcvXAJnbzEAJ6JQOQ4tKLVGkk7g",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"courseId\": \"67b3fdb6fb84d315069e5b28\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/courses/assign",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"courses",
+						"assign"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I0MTEyYWNmMmE2ZjFiOTUyMGU1MWEiLCJpYXQiOjE3Mzk4NTQ4ODUsImV4cCI6MTczOTg1ODQ4NX0.oCBcxt_le0M2Ib8jy3PKXybmeC7tcmOehH4Aiqg0qB4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/courses/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"courses",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete courses",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2I0MGYyOWU0OGRlODJiYzczNzE3OTgiLCJpYXQiOjE3Mzk4NTU1MDQsImV4cCI6MTczOTg1OTEwNH0.qEaAU0sxOcLB_Nc5DuO7xPKJ7i4WtELXlOMNi_HG9Bk",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/courses/67b40fc3e48de82bc737179c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"courses",
+						"67b40fc3e48de82bc737179c"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

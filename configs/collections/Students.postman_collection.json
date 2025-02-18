@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "a6c06b20-87ac-46b3-a0ed-65ba4576ea00",
+		"name": "Students",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42042928"
+	},
+	"item": [
+		{
+			"name": "Login students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\" : \"juanestrada@gmail.com\",\r\n    \"password\" : \"milan2005\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/students/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"students",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Juan\",\r\n    \"surname\" : \"Estrada\",\r\n    \"username\" : \"ju4n\",\r\n    \"email\" : \"juanestrada@gmail.com\",\r\n    \"password\" : \"milan2005\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/students/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"students",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put students",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzY2UwNTBiZjlkYjc5MTg0OWUwZmIiLCJpYXQiOjE3Mzk4MzcwNzcsImV4cCI6MTczOTg0MDY3N30.utJ25Roz6X3GsGYMjev_tZrOjLnhTzqD6nyDyA6IGOw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"Daniel\",\r\n    \"surname\" : \"Figueroa\",\r\n    \"username\" : \"DaniFiguer0a\",\r\n    \"email\" : \"daniFigueroa@gmail.com\",\r\n    \"password\" : \"likehim1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/students/67b3ce050bf9db791849e0fb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"students",
+						"67b3ce050bf9db791849e0fb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2IzZDBkNTBiZjlkYjc5MTg0OWUxMDUiLCJpYXQiOjE3Mzk4Mzc2ODAsImV4cCI6MTczOTg0MTI4MH0.OB36UhM3ZssEERq0hBjchdJou5cwdRe59BD9WyxjvTE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/students/67b3d0d50bf9db791849e105",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"students",
+						"67b3d0d50bf9db791849e105"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/students/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"students",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ger for Id students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/studentManager/v1/students/findStudent/67b3d0630bf9db791849e102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"studentManager",
+						"v1",
+						"students",
+						"findStudent",
+						"67b3d0630bf9db791849e102"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

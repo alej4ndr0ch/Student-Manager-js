@@ -1,0 +1,109 @@
+[{
+  "_id": {
+    "$oid": "67b3ce050bf9db791849e0fb"
+  },
+  "name": "Daniel",
+  "surname": "Figueroa",
+  "username": "danifiguer0a",
+  "email": "pabloochoa@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RtspxmKr2BhvZqB1PZ8Vvg$yz0udo0FeTM1A0PxaE09/52wsxALgCm93p1I8QZxIfU",
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T00:02:13.531Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T00:10:50.817Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3d0630bf9db791849e102"
+  },
+  "name": "Andre",
+  "surname": "Melendres",
+  "username": "andr3mel3ndres",
+  "email": "andremelendres@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$3P6AKG8cv0HxTmrVlqdjng$QA/Kbr09MbyrYShW8q3jzr0EawjP14lCwa1/QFihIak",
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T00:12:19.604Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T00:12:19.604Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3d0d50bf9db791849e105"
+  },
+  "name": "Ancel",
+  "surname": "sawerbrey",
+  "username": "ancels4werbrey",
+  "email": "ancelsawerbrey@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ct45oe7Ok9E/iON6MarDMQ$6dc3qW5xh/uPUWqIUP9ZUIjCjsBnbSx9jiTWytFTwOc",
+  "role": "STUDENT_ROLE",
+  "estado": false,
+  "createdAt": {
+    "$date": "2025-02-18T00:14:13.176Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T00:16:00.905Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b40bd2c4e182c5bb11d033"
+  },
+  "name": "Gerardo",
+  "surname": "alegria",
+  "username": "alegr1a",
+  "email": "gerardoalegria@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$UmaQMbydj8OZ+p5ngpQ5ew$Bwf7nRtY+5zCcbLG+y8bvkXBA2WDz/Hho1Lvq1orXGc",
+  "role": "STUDENT_ROLE",
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T04:25:54.351Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T05:12:28.965Z"
+  },
+  "courses": [
+    {
+      "$oid": "67b4034a8690240e253c876c"
+    },
+    {
+      "$oid": "67b404628690240e253c8773"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67b4112acf2a6f1b9520e51a"
+  },
+  "name": "Juan",
+  "surname": "Estrada",
+  "username": "ju4n",
+  "email": "juanestrada@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$WeLhPeMJqNxZtlAGynu01A$5Wt7BmMcw6XBLw3OWTxLxuRoSOJprzB0Iz/p4Mgm+Vs",
+  "role": "STUDENT_ROLE",
+  "courses": [
+    {
+      "$oid": "67b404628690240e253c8773"
+    },
+    {
+      "$oid": "67b4034a8690240e253c876c"
+    },
+    {
+      "$oid": "67b3fb79f90b6391e19720f7"
+    }
+  ],
+  "estado": true,
+  "createdAt": {
+    "$date": "2025-02-18T04:48:42.178Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T05:14:33.931Z"
+  }
+}]

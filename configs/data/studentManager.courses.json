@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "67b3fb79f90b6391e19720f7"
+  },
+  "name": "Matematica",
+  "description": "El curso de Matematica intenta enseñar la matematica",
+  "teacher": {
+    "$oid": "67b3dfb96076ec9ae3df4d85"
+  },
+  "students": [
+    {
+      "$oid": "67b3d0630bf9db791849e102"
+    },
+    {
+      "$oid": "67b40bd2c4e182c5bb11d033"
+    },
+    {
+      "$oid": "67b4112acf2a6f1b9520e51a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-18T03:16:09.357Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T05:14:33.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b3fdb6fb84d315069e5b28"
+  },
+  "name": "Fisica",
+  "description": "El curso de fisica intenta el enseñar fisica",
+  "teacher": {
+    "$oid": "67b3fd52fb84d315069e5b24"
+  },
+  "students": [
+    {
+      "$oid": "67b3d0630bf9db791849e102"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-18T03:25:42.367Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T04:22:48.271Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b4034a8690240e253c876c"
+  },
+  "name": "Ciencias sociales",
+  "description": "El curso de ciencias sociales intenta el introducir el curso de sociales",
+  "teacher": {
+    "$oid": "67b402e78690240e253c8768"
+  },
+  "students": [
+    {
+      "$oid": "67b40bd2c4e182c5bb11d033"
+    },
+    {
+      "$oid": "67b4112acf2a6f1b9520e51a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-18T03:49:30.083Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T04:54:40.212Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b404628690240e253c8773"
+  },
+  "name": "Estadistica",
+  "description": "El curso de ciencias estadistica intenta el introducir el curso de estadistica",
+  "teacher": {
+    "$oid": "67b404178690240e253c876f"
+  },
+  "students": [
+    {
+      "$oid": "67b40bd2c4e182c5bb11d033"
+    },
+    {
+      "$oid": "67b4112acf2a6f1b9520e51a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-18T03:54:10.031Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-18T04:54:29.105Z"
+  }
+}]
